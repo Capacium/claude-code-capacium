@@ -1,6 +1,6 @@
 {
   "name": "capacium",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Capacium capability marketplace — search, install, and manage AI agent capabilities directly from Claude Code",
   "author": "Capacium",
   "repository": "https://github.com/Capacium/claude-code-capacium",
@@ -28,6 +28,10 @@
     {
       "name": "/capacium-status",
       "description": "Show Capacium connection status and installed capabilities"
+    },
+    {
+      "name": "/capacium-lifecycle",
+      "description": "Capacium lifecycle management guide — verify, update, troubleshoot"
     }
   ],
   "hooks": {
@@ -38,6 +42,10 @@
           {
             "type": "command",
             "command": "node -e \"console.log('Capacium: file changed. Consider running /capacium-search to check for relevant capabilities.')\""
+          },
+          {
+            "type": "command",
+            "command": "node $PLUGIN_DIR/capacium-hook.js $HOOK_PAYLOAD"
           }
         ]
       }

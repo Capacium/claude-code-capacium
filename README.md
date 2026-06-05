@@ -21,7 +21,18 @@ cp -r claude-code-capacium ~/.claude/plugins/capacium/
 | `/capacium-search <query>` | Search marketplace |
 | `/capacium-install <owner/name>` | Install capability |
 | `/capacium-status` | Show status + installed |
+| `/capacium-lifecycle` | Lifecycle management guide |
 
 ## MCP Server
 
 This plugin bundles `capacium-mcp` for capability resolution and installation via Claude Code's MCP integration.
+
+## Changelog
+
+### v0.2.0
+- Added `/capacium-lifecycle` slash command — lifecycle management guide
+- Added PostToolUse hook — suggests capabilities based on file type
+- Improved install instructions
+
+### v0.1.0
+- Initial release — marketplace search and install
