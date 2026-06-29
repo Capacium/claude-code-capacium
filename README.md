@@ -40,3 +40,9 @@ This plugin bundles `capacium-mcp` for capability resolution and installation vi
 
 ### v0.1.0
 - Initial release — marketplace search and install
+
+## Development
+
+Canonical repository: **self-hosted Forgejo** — `git.langevc.com/capacium/claude-code-capacium`
+(`git clone git@git.langevc.com:capacium/claude-code-capacium.git`). Develop against the Forgejo
+clone and open pull requests there. The GitHub copy is a read-only mirror.
