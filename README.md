@@ -1,5 +1,9 @@
 # Claude Code — Capacium Plugin
 
+> [!NOTE]
+> **Public mirror.** The canonical repository is hosted on our self-hosted git.
+> This GitHub copy is a read-only mirror kept in sync for visibility and installation.
+
 Search, install, and manage AI agent capabilities from the [Capacium](https://capacium.xyz) marketplace directly within Claude Code.
 
 ## Install
