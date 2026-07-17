@@ -1,2 +1,6 @@
 .DS_Store
 node_modules/
+
+# SkillWeave runtime stays local; the organization planning helper is tracked.
+.skillweave/*
+!.skillweave/agents.md
